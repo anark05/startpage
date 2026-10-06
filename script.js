@@ -1,30 +1,24 @@
 // ---- EDIT HERE ----------------------------------------------------------
-const BANNER = "banner.jpg"; // image above the search box, "" to hide
+const BANNER = "banner.jpg";
 
 const GROUPS = [
-  { name: "work", links: [
-    ["gmail", "https://mail.google.com"],
-    ["calendar", "https://calendar.google.com"],
-    ["hubspot", "https://app.hubspot.com"],
-    ["linkedin", "https://linkedin.com"],
+  { name: "media", links: [
+    ["youtube", "https://www.youtube.com"],
+    ["netflix", "https://www.netflix.com"],
+    ["crunchyroll", "https://www.crunchyroll.com"],
   ]},
-  { name: "dev", links: [
-    ["github", "https://github.com"],
-    ["python docs", "https://docs.python.org/3/"],
-    ["godot docs", "https://docs.godotengine.org"],
-    ["devdocs", "https://devdocs.io"],
+  { name: "game dev", links: [
+    ["ellipsus", "https://ellipsus.com"],
+    ["renpy docs", "https://www.renpy.org/doc/html/index.html"],
+    ["itch.io", "https://itch.io"],
   ]},
-  { name: "reddit", links: [
-    ["learnpython", "https://reddit.com/r/learnpython"],
-    ["godot", "https://reddit.com/r/godot"],
-    ["selfhosted", "https://reddit.com/r/selfhosted"],
-  ]},
-  { name: "play", links: [
-    ["youtube", "https://youtube.com"],
-    ["twitch", "https://twitch.tv"],
-    ["netflix", "https://netflix.com"],
+  { name: "gaming", links: [
+    ["roll20", "https://roll20.net"],
+    ["mabinogi world wiki", "https://wiki.mabinogiworld.com/"],
+    ["universalis", "https://universalis.app"],
   ]},
 ];
+
 // -------------------------------------------------------------------------
 
 const grid = document.getElementById("grid");
