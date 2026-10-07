@@ -8,7 +8,7 @@ const GROUPS = [
     ["crunchyroll", "https://www.crunchyroll.com"],
   ]},
   { name: "game dev", links: [
-    ["ellipsus", "https://ellipsus.com"],
+    ["ellipsus", "https://write.ellipsus.com"],
     ["renpy docs", "https://www.renpy.org/doc/html/index.html"],
     ["itch.io", "https://itch.io"],
   ]},
